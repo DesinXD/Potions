@@ -14,14 +14,17 @@ namespace Potions.src
 
         public SpeedPotion(float xval,float yval):base(xval,yval)
         {
-            this.graphic = new Sprite(GetPath("items/EmptyPotion"));
+            this.ammo = 1;
+            this._ammoType = new ATLaser();
+            this.graphic = new Sprite(GetPath("items/SpeedPotion"));
             this.center = new Vec2(0f, 0f);
             this.collisionOffset = new Vec2(8f, 8f);
             this.collisionSize = new Vec2(16f, 16f);
+            this._barrelOffsetTL = new Vec2(8f, 8f);
         }
         public override void OnHoldAction()
         {
-            SFX.Play(GetPath("sounds/drink.ogg"), 1, 0, 0, true);
+            SFX.Play(GetPath("sounds/drink.ogg"));
             drinktime -= 0.1f;
             if (drinktime <= 0f)
             {
@@ -38,6 +41,12 @@ namespace Potions.src
         {
             drinktime = 10f;
             base.OnReleaseAction();
+        }
+        public override void OnPressAction()
+        {
+        }
+        public override void Fire()
+        {
         }
     }
 }
