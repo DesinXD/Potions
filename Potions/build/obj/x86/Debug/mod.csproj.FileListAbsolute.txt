@@ -1,0 +1,6 @@
+C:\Users\ahuma\Documents\DuckGame\Mods\Potions\build\obj\x86\Debug\mod.csprojAssemblyReference.cache
+C:\Users\ahuma\Documents\DuckGame\Mods\Potions\build\obj\x86\Debug\mod.csproj.CoreCompileInputs.cache
+C:\Users\ahuma\Documents\DuckGame\Mods\Potions\build\obj\x86\Debug\Potions.dll
+C:\Users\ahuma\Documents\DuckGame\Mods\Potions\build\obj\x86\Debug\Potions.pdb
+C:\Users\ahuma\Documents\DuckGame\Mods\Potions\Potions.dll
+C:\Users\ahuma\Documents\DuckGame\Mods\Potions\Potions.pdb
